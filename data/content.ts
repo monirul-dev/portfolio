@@ -1,6 +1,7 @@
 import {
   Metric,
   Project,
+  Experience,
 } from "@/lib/types";
 
 export const profile = {
@@ -138,6 +139,30 @@ export const projects: Project[] = [
       "Power Apps",
       "Snowflake",
       "Power BI",
+    ],
+  },
+];
+
+export const experiences: Experience[] = [
+  {
+    company: "Ctrends Software & Services Ltd.",
+    title: "Software Developer Intern",
+    period: "Sep 2022 - Dec 2022",
+    description: [
+      "Developed backend features and REST APIs using Spring Boot.",
+      "Participated in feature development, testing, and code review.",
+      "Worked with senior developers in an Agile development environment.",
+    ],
+  },
+  {
+    company: "DSK LABS",
+    title: "Power Platform Developer | Data Engineer",
+    period: "Aug 2023 - Present",
+    description: [
+      "Built and maintained production healthcare applications using Microsoft Power Platform.",
+      "Designed Snowflake data pipelines and automated data workflows.",
+      "Worked on SQL Server to Snowflake migration initiatives.",
+      "Delivered reporting and analytics solutions with Power BI.",
     ],
   },
 ];
