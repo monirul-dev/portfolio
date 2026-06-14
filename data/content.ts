@@ -37,3 +37,40 @@ export const about = {
     "Today, I work across Power Platform, Snowflake, Python, Prefect, and business intelligence solutions, helping organizations automate processes, integrate data, and build reliable systems that deliver value at scale.",
   ],
 };
+
+export const services = [
+  {
+    title: "Business Applications",
+    description:
+      "Building production-ready applications that streamline operations and improve user workflows.",
+    items: [
+      "Power Apps",
+      "Model-Driven Apps",
+      "Power BI",
+    ],
+  },
+
+  {
+    title: "Workflow Automation",
+    description:
+      "Reducing manual effort through automation, orchestration, and system integration.",
+    items: [
+      "Prefect",
+      "REST APIs",
+      "ETL / ELT",
+      "Process Automation",
+    ],
+  },
+
+  {
+    title: "Data Engineering",
+    description:
+      "Designing and maintaining reliable data platforms and integration pipelines.",
+    items: [
+      "Snowflake",
+      "SQL Server",
+      "Data Pipelines",
+      "Data Integration",
+    ],
+  },
+];
