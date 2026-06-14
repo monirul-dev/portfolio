@@ -1,4 +1,7 @@
-import { Metric } from "@/lib/types";
+import {
+  Metric,
+  Project,
+} from "@/lib/types";
 
 export const profile = {
   name: "Monirul Islam",
@@ -71,6 +74,70 @@ export const services = [
       "SQL Server",
       "Data Pipelines",
       "Data Integration",
+    ],
+  },
+];
+
+export const projects: Project[] = [
+  {
+    title: "Healthcare Patient Management System",
+
+    status: "Production",
+
+    description:
+      "Enterprise healthcare management platform supporting patient records, workflow automation, and operational processes used by healthcare teams on a daily basis.",
+
+    technologies: [
+      "Power Apps",
+      "Power Automate",
+      "Power BI",
+    ],
+  },
+
+  {
+    title: "SQL Server → Snowflake Migration Framework",
+
+    status: "Production",
+
+    description:
+      "Migrated enterprise workloads from SQL Server to Snowflake, modernizing data infrastructure and deployment workflows while improving maintainability.",
+
+    technologies: [
+      "Snowflake",
+      "SQL Server",
+      "Python",
+      "Flyway",
+    ],
+  },
+
+  {
+    title: "Automated Data Pipeline Platform",
+
+    status: "In Development",
+
+    description:
+      "Automated ingestion, transformation, and reporting workflows using modern orchestration and data engineering tools.",
+
+    technologies: [
+      "Python",
+      "Prefect",
+      "Snowflake",
+      "Power BI",
+    ],
+  },
+
+  {
+    title: "Staff Scheduling & Coverage Dashboard",
+
+    status: "In Development",
+
+    description:
+      "Workforce scheduling and staffing visibility solution combining Power Apps, Snowflake, and Power BI.",
+
+    technologies: [
+      "Power Apps",
+      "Snowflake",
+      "Power BI",
     ],
   },
 ];
