@@ -1,52 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Metrics from "@/components/Metrics";
+import About from "@/components/About";
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Metrics />
+      <About />
     </>
   );
 }
-
-
-
-
-
-
-
-
-
-
-// import Navbar from "@/components/Navbar";
-// import Hero from "@/components/Hero";
-// import Metrics from "@/components/Metrics";
-// import About from "@/components/About";
-// import Projects from "@/components/Projects";
-// import Experience from "@/components/Experience";
-// import Skills from "@/components/Skills";
-// import Testimonial from "@/components/Testimonial";
-// import Focus from "@/components/Focus";
-// import Principles from "@/components/Principles";
-// import Contact from "@/components/Contact";
-// import Footer from "@/components/Footer";
-
-// export default function Home() {
-//   return (
-//     <>
-//       <Navbar />
-//       <Hero />
-//       <Metrics />
-//       <About />
-//       <Projects />
-//       <Experience />
-//       <Skills />
-//       <Testimonial />
-//       <Focus />
-//       <Principles />
-//       <Contact />
-//       <Footer />
-//     </>
-//   );
-// }
