@@ -245,3 +245,20 @@ export const principles = [
       "Choosing practical solutions over unnecessary complexity.",
   },
 ];
+
+export const contact = {
+  title: "Let's Build Something Useful",
+
+  description:
+    "Whether you need a business application, workflow automation, data platform, or analytics solution, I'd love to hear about your project.",
+
+  email: "monirul@monirulislam.dev",
+
+  github: "https://github.com/monirul-dev",
+
+  linkedin: "https://www.linkedin.com/in/monirul-dev/",
+
+  location: "Bangladesh 🇧🇩",
+
+  note: "Working with clients worldwide.",
+};

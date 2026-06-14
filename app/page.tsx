@@ -9,6 +9,8 @@ import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
 import Focus from "@/components/Focus";
 import Principles from "@/components/Principles";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
       <Testimonial />
       <Focus />
       <Principles />
+      <Contact />
+      <Footer />
     </>
   );
 }
