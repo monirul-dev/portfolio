@@ -2,6 +2,7 @@ import {
   Metric,
   Project,
   Experience,
+  SkillGroup,
 } from "@/lib/types";
 
 export const profile = {
@@ -164,5 +165,83 @@ export const experiences: Experience[] = [
       "Worked on SQL Server to Snowflake migration initiatives.",
       "Delivered reporting and analytics solutions with Power BI.",
     ],
+  },
+];
+
+export const skillGroups: SkillGroup[] = [
+  {
+    category: "Power Platform",
+    skills: [
+      "Power Apps Canvas",
+      "Power Apps Model-Driven",
+      "Power BI",
+      "Azure Functions",
+    ],
+  },
+
+  {
+    category: "Data Engineering",
+    skills: [
+      "Snowflake",
+      "Prefect",
+      "Data Pipelines",
+      "Workflow Automation",
+      "ETL / ELT",
+    ],
+  },
+
+  {
+    category: "Databases",
+    skills: [
+      "SQL Server",
+      "PostgreSQL",
+      "MySQL",
+    ],
+  },
+
+  {
+    category: "Backend & Tools",
+    skills: [
+      "Python",
+      "Git",
+      "Linux",
+      "REST APIs",
+    ],
+  },
+];
+
+export const testimonial = {
+  quote:
+    "Monirul has consistently demonstrated the ability to take ownership of complex technical challenges and deliver reliable solutions. From Power Platform applications supporting daily business operations to large-scale data engineering and automation initiatives, he approaches every project with professionalism, strong problem-solving skills, and a commitment to quality. What stands out most is his willingness to learn new technologies when projects demand it and his ability to apply them effectively in production environments.",
+
+  author: "Khurram Khan",
+
+  role: "CEO, DSK LABS",
+};
+
+export const currentFocus = [
+  "Advanced Snowflake Engineering",
+  "Modern Data Platforms",
+  "Workflow Orchestration",
+  "AI-Assisted Automation",
+];
+
+export const principles = [
+  {
+    title: "Reliability",
+    description:
+      "Building systems that continue to work long after deployment.",
+  },
+
+  {
+    title: "Automation",
+    description:
+      "Reducing repetitive work through thoughtful engineering.",
+  },
+
+  {
+    title: "Simplicity",
+    description:
+      "Choosing practical solutions over unnecessary complexity.",
   },
 ];
