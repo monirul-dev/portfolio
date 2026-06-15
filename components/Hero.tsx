@@ -59,7 +59,7 @@ export default function Hero() {
           <div className="absolute h-72 w-72 rounded-full bg-cyan-500/20 blur-3xl" />
 
           <Image
-            src="/logo.png"
+            src="/logo.svg"
             alt="Monirul Islam Logo"
             width={300}
             height={300}

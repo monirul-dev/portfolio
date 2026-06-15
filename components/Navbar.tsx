@@ -23,7 +23,7 @@ export default function Navbar() {
           onClick={() => setOpen(false)}
         >
           <Image
-            src="/logo.png"
+            src="/logo.svg"
             alt="Monirul Islam Logo"
             width={32}
             height={32}

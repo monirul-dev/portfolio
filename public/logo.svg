@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="799.99933"
+   height="640.00116"
+   viewBox="0 0 799.99933 640.00116"
+   version="1.1"
+   xml:space="preserve"
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:serif="http://www.serif.com/"><defs
+   id="defs5" />
+    <g
+   transform="translate(-8889.7316,-191.32531)"
+   id="g5">
+        <g
+   id="Page-3"
+   serif:id="Page 3"
+   transform="translate(6502.5755)">
+            <rect
+   x="2276"
+   y="0"
+   width="1024"
+   height="1024"
+   style="fill:none"
+   id="rect1" />
+            <g
+   transform="matrix(4.282692,0,0,1.414214,-7684.3263,-212.75151)"
+   id="g4">
+                <g
+   transform="matrix(0.330216,0,0,1,-623.81727,-1175.7206)"
+   id="g1">
+                    <path
+   d="m 9237.007,1913.995 -226.274,-226.274 226.274,-226.275 56.569,56.569 -169.706,169.706 56.568,56.568 56.569,56.569 56.569,56.568 z"
+   style="fill:#3f44c8"
+   id="path1" />
+                </g>
+                <g
+   transform="matrix(0.330216,0,0,1,-623.81727,-1175.7206)"
+   id="g2">
+                    <path
+   d="m 9406.713,1518.015 169.705,169.706 -169.705,169.705 -56.569,-56.568 56.569,-56.569 56.568,-56.568 -56.568,-56.569 -56.569,-56.568 z"
+   style="fill:#3f44c8"
+   id="path2" />
+                </g>
+                <g
+   transform="matrix(0.330216,0,0,1,-623.81727,-1175.7206)"
+   id="g3">
+                    <path
+   d="m 9237.007,1574.584 56.569,56.568 56.568,-56.568 56.569,56.568 56.568,56.569 -56.568,56.568 -56.569,-56.568 -56.568,56.568 -56.569,-56.568 -56.569,56.568 -56.568,-56.568 z"
+   style="fill:#00d0c5"
+   id="path3" />
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
