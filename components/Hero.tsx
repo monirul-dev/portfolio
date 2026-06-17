@@ -31,7 +31,13 @@ export default function Hero() {
             >
               View Projects
             </a>
-
+            <a
+              href="/resume/Monirul_Islam_Resume.pdf"
+              download
+              className="rounded-xl bg-cyan-500 px-6 py-3 font-medium text-black transition hover:scale-105"
+            >
+              Download Resume
+            </a>
             <a
               href="#contact"
               className="rounded-xl border border-white/20 px-6 py-3 font-medium text-white transition hover:border-cyan-500"
