@@ -5,9 +5,11 @@ export interface Metric {
 
 export interface Project {
   title: string;
-  status: "Production" | "In Development";
+  status: "Production" | "In Development" | "Completed";
   description: string;
   technologies: string[];
+  image?: string;
+  featured?: boolean;
 }
 
 export interface Experience {

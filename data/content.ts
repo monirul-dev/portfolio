@@ -142,6 +142,20 @@ export const projects: Project[] = [
       "Power BI",
     ],
   },
+
+  {
+    title: "Service Marketplace Platform (Fordo)",
+    description:
+      "Service marketplace platform connecting users with household, transportation, medical, and professional services. Implemented core functionality, responsive interfaces, and service discovery workflows based on Figma designs.",
+    status: "Completed",
+    technologies: [
+      "Frontend Development",
+      "Responsive Design",
+      "Figma"
+    ],
+    image: "/projects/fordo-home.png",
+    featured: false,
+  }
 ];
 
 export const experiences: Experience[] = [
