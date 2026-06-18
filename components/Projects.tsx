@@ -2,10 +2,7 @@ import { projects } from "@/data/content";
 
 export default function Projects() {
   return (
-    <section
-      id="projects"
-      className="bg-[#0B1020] px-6 py-24"
-    >
+    <section id="projects" className="bg-[#0B1020] px-6 py-24">
       <div className="mx-auto max-w-7xl">
         <p className="mb-3 text-sm font-medium uppercase tracking-[0.3em] text-cyan-400">
           Featured Projects
@@ -21,15 +18,34 @@ export default function Projects() {
               key={project.title}
               className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 transition hover:border-cyan-400/30 hover:bg-white/[0.05]"
             >
-              <div className="mb-5 flex items-center justify-between">
+              {project.image && (
+                <a
+                  href={project.image}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <div className="mb-6 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03]">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="h-56 w-full object-cover object-top transition duration-500 hover:scale-105"
+                    />
+                  </div>
+                </a>
+              )}
+
+              <div className="mb-5 flex items-center justify-between gap-4">
                 <h3 className="text-2xl font-semibold text-white">
                   {project.title}
                 </h3>
 
                 <span
-                  className={`rounded-full px-3 py-1 text-xs font-medium ${
+                  className={`shrink-0 rounded-full px-3 py-1 text-xs font-medium ${
                     project.status === "Production"
                       ? "bg-green-500/20 text-green-300"
+                      : project.status === "Completed"
+                      ? "bg-blue-500/20 text-blue-300"
                       : "bg-amber-500/20 text-amber-300"
                   }`}
                 >
@@ -37,9 +53,7 @@ export default function Projects() {
                 </span>
               </div>
 
-              <p className="mb-6 text-slate-400">
-                {project.description}
-              </p>
+              <p className="mb-6 text-slate-400">{project.description}</p>
 
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech) => (
