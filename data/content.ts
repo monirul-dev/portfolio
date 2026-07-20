@@ -7,7 +7,7 @@ import {
 
 export const profile = {
   name: "Monirul Islam",
-  title: "Power Platform Developer | Data Engineer",
+  title: "Data & Automation Engineer",
   tagline:
     "Building business applications, automating workflows, and engineering modern data platforms.",
   email: "monirul@monirulislam.dev",
