@@ -7,7 +7,7 @@ export default function Footer() {
         </p>
 
         <p className="mb-4 text-slate-400">
-          Power Platform Developer | Data Engineer
+          Data & Automation Engineer
         </p>
 
         <p className="text-sm text-slate-500">
