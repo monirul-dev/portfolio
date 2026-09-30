@@ -230,7 +230,7 @@ export const testimonial = {
   quote:
     "Monirul has consistently demonstrated the ability to take ownership of complex technical challenges and deliver reliable solutions. From Power Platform applications supporting daily business operations to large-scale data engineering and automation initiatives, he approaches every project with professionalism, strong problem-solving skills, and a commitment to quality. What stands out most is his willingness to learn new technologies when projects demand it and his ability to apply them effectively in production environments.",
 
-  author: "Ali Khan",
+  author: "Khurram Khan",
 
   role: "CEO, DSK LABS",
 };
